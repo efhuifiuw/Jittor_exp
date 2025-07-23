@@ -13,11 +13,6 @@
 ## 1.下载huggingface中LLaMA所要使用到的训练数据集
 RedPajama 基础数据集是一个完全开放的数据集，包含 1200 亿个标记，是通过按照 LLaMA 论文中描述的方法创建的。数据集下载指令如下：
 
-    pip install -U "huggingface_hub[cli]"
-    export HF_HUB_ENABLE_HF_TRANSFER=1  # 开启加速
-    pip install hf_transfer  #hf_transfer包
-    huggingface-cli download togethercomputer/RedPajama-Data-1T --repo-type=dataset
-
 
 ## 2.训练数据集名称以及token数量
 如图可见可见训练数据集详细信息。
